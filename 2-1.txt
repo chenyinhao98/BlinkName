@@ -1,0 +1,81 @@
+int led1 = D0; 
+int led2 = D7; 
+void setup() {
+
+  pinMode(led1, OUTPUT);
+  pinMode(led2, OUTPUT);
+
+}
+
+void loop() {
+    
+// my first name is Yin
+//convert to morse code -.--..-.
+//i will use 1.5 second led on for long dash and 0.5 sencond on for short dash
+  digitalWrite(led1, HIGH);
+  digitalWrite(led2, HIGH);
+  delay(1500);
+  
+  digitalWrite(led1, LOW);
+  digitalWrite(led2, LOW);
+  delay(500);
+  
+  digitalWrite(led1, HIGH);
+  digitalWrite(led2, HIGH);
+  delay(500);
+  
+  digitalWrite(led1, LOW);
+  digitalWrite(led2, LOW);
+  delay(500);
+  
+  digitalWrite(led1, HIGH);
+  digitalWrite(led2, HIGH);
+  delay(1500);
+  
+  digitalWrite(led1, LOW);
+  digitalWrite(led2, LOW);
+  delay(500);
+  
+  digitalWrite(led1, HIGH);
+  digitalWrite(led2, HIGH);
+  delay(1500);
+  
+  digitalWrite(led1, LOW);
+  digitalWrite(led2, LOW);
+  delay(500);
+  
+  digitalWrite(led1, HIGH);
+  digitalWrite(led2, HIGH);
+  delay(500);
+  
+  digitalWrite(led1, LOW);
+  digitalWrite(led2, LOW);
+  delay(500);
+  
+  digitalWrite(led1, HIGH);
+  digitalWrite(led2, HIGH);
+  delay(500);
+  
+  digitalWrite(led1, LOW);
+  digitalWrite(led2, LOW);
+  delay(500);
+
+  digitalWrite(led1, HIGH);
+  digitalWrite(led2, HIGH);
+  delay(1500);
+  
+  digitalWrite(led1, LOW);
+  digitalWrite(led2, LOW);
+  delay(500);
+  
+  digitalWrite(led1, HIGH);
+  digitalWrite(led2, HIGH);
+  delay(500);
+  
+  digitalWrite(led1, LOW);
+  digitalWrite(led2, LOW);
+  delay(500);
+
+  // And repeat!
+}
+
